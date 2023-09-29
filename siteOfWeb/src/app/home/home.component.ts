@@ -10,7 +10,7 @@ export class HomeComponent {
 
   constructor(private router:Router){}
 
-  home(){
-    this.router.navigateByUrl("home")
-  }
+  // home(){
+  //   this.router.navigateByUrl("about");
+  // }
 }

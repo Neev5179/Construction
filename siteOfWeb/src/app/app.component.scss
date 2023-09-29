@@ -1,0 +1,33 @@
+.backGoundImage{
+    // background-color: red;
+     height: 600px;
+     width: 1415px;
+    background-image: url('~src/assets/image/back3.jpeg');
+    background-repeat: no-repeat;
+  //background-position: center;
+  background-size: cover;
+   }
+
+   .homeBtn{
+    font-size: large;
+    color: brown;
+    font-family: "Times New Roman", Times, serif;
+    border: 1px solid black;
+    width: 76px;
+    height: 28px;
+    margin: top;
+    // position: relative;
+    background-color: aqua;
+    margin: 5px;
+}
+   .aboutBtn{
+    font-size: large;
+    color: brown;
+    font-family: "Times New Roman", Times, serif;
+    border: 1px solid black;
+    width: 76px;
+    height: 28px;
+    margin: top;
+    // position: relative;
+    background-color: aqua;
+   }
