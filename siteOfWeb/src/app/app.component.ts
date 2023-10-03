@@ -11,11 +11,6 @@ export class AppComponent {
 
   constructor(private router:Router){}
 
-  home(){
-    this.router.navigateByUrl("home");
-  }
-  about(){
-    this.router.navigateByUrl("about")
-  }
+ 
 }
 
