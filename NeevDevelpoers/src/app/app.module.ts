@@ -3,16 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoadindPageComponent } from './loadind-page/loadind-page.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ShareModule } from './share/share.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoadindPageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    ShareModule
   ],
   providers: [],
   bootstrap: [AppComponent]
