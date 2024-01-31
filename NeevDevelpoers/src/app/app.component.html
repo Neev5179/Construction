@@ -1,7 +1,14 @@
 <!-- <router-outlet></router-outlet> -->
 
 
-<div >
+<div class="page">
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.body.style.overflowX = 'hidden';
+    });
+  </script>
+
+
     <img class="logoImage" src="assets/image/final.png" height="200" width="200" alt="Image Description">
     <button mat-raised-button color="primary" (click)="goToHome()" > <mat-icon>home</mat-icon>Home</button>
     <button mat-raised-button color="accent"(click)="goToAbout()" >About Us</button>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Renderer2 } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -11,8 +11,13 @@ export class AppComponent {
 
 
 
-  constructor(private router:Router){}
+  constructor(private router:Router ,private renderer:Renderer2 ){}
 
+
+  ngOnInit(): void {
+    this.renderer.setStyle(document.body, 'overflow-x', 'hidden');
+  }
+  
   goToHome(){
     console.log("homecomp");
     
