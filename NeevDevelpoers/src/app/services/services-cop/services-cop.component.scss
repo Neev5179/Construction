@@ -1,0 +1,164 @@
+.bgImage{
+    background-image: url('~src/assets/image/sir.jpg');
+    height: 600px;
+    width: 2000px;
+    background-repeat: no-repeat;
+    position:relative;
+      background-size: cover;
+}
+.divMargin{
+    position: relative;
+    top: 379px;
+    padding: auto;
+    height: 200px;
+    overflow: hidden;
+    font-size: 54px;
+    margin: auto;
+    /* right: -72px; */
+    left: 700px;
+  }
+  .marquee {
+    animation: _ngcontent-ng-c1485734361_slide 20s linear infinite;
+    font-size: 50px;
+    top: 20px;
+    position: relative;
+}
+
+
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(50%);
+    }
+    50% {
+      transform: translateX(50%);
+      color: red; /* Change color in the middle */
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  .whatToDo{
+    position: relative;
+    top: 30px;
+    left: 550px;
+    color: lightslategrey;
+  }
+  .whatToDop{
+    font-size: 20px;
+    position: relative;
+    left: 350px;
+    top: 30px;
+    color: rgb(201, 119, 18);
+  }
+  .divformat{
+    left: 100px;
+    width: 355px;
+    height: 530px;
+    position: relative;
+    border-radius: 30px;
+    border: solid black;
+    top: 30px;
+  }
+
+  .imageFormat{
+    height: 220px;
+    width: 295px;
+    position: relative;
+    top: 20px;
+    left: 15px 
+  }
+  .dataFormat{
+    position: relative;
+    top: 30px;
+    color: rgb(18, 18, 18);
+    left: 20px;
+  }
+
+  .pra{
+    color: rgb(10, 235, 160);
+    font-size: 15px;
+  }
+  .button{
+    position: relative;
+    left: 90px;
+    top: 50px;
+    color: red;
+  }
+
+  .divformat1{
+    left: 500px;
+    width: 380px;
+    height: 530px;
+    position: relative;
+    border-radius: 30px;
+    border: solid black;
+    top: -500px;
+  }
+
+  .divformat2{
+    left: 930px;
+    width: 380px;
+    height: 530px;
+    position: relative;
+    border-radius: 30px;
+    border: solid black;
+    top: -1030px;
+  }
+
+  .divformat3{
+    left: 500px;
+    width: 395px;
+    height: 530px;
+    position: relative;
+    border-radius: 30px;
+    border: solid black;
+    top: -1000px;
+
+  }
+  .smallImage{
+    background-image: url('~src/assets/image/about1.jpg');
+    height: 968px;
+    width: 1356px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    right: 506px;
+    top: 120px;
+  }
+  .divd {
+    position: relative;
+    top: 297px;
+    height: 535px;
+    width: 800px;
+    font-family: fangsong;
+    font-size: 35px;
+    // background: linear-gradient(rgba(240, 128, 128, 0.5), rgba(240, 128, 128, 0.5)), url('~src/assets/image/about1.jpg');
+    // background-size: cover;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    /* right: 35px; */
+    left: 560px;
+    word-wrap: break-word;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    // left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Text color */
+    font-size: 25px;
+    font-family: fangsong;
+
+  }
+  
+  .text{
+    position: relative;
+    left: -126px;
+    top: 43px;
+    color:white;
+    font-style: italic;
+    font-size: 56px;
+  }

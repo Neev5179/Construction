@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AboutCopComponent {
 
+  emailAdress:string='vaibhav.more812@gmail.com'
 }

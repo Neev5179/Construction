@@ -1,0 +1,91 @@
+.backbutton{
+    position: relative;
+    height: 10px;
+    width: 10px;
+    top: 100px;
+    right: -136px;
+    border: none;
+    text-decoration: underline;
+    font-size: 20px;
+  }
+.logoImage{
+    position: relative;
+    /* right: 62px; */
+    left: 1080px;
+    top: -740px;
+     }
+
+
+  .wordrap{
+    position: relative;
+    color: rgb(15, 15, 15);
+    top: 132px;
+    right: -100px;
+    column-count: 2;
+        
+  }
+  .backToLinks{
+    position: relative;
+    color: rgb(15, 15, 15);
+    top: -215px;
+    left: 600px
+   
+  }
+  
+  .backToLinks button{
+   position: relative;
+//     // height: 10px;
+//     // width: 10px;
+//     // top: 90px;
+//     // right: 460px;
+     border: none;
+//     // text-decoration:underline;
+    font-size: 20px;
+ }
+  
+   .contactUs{
+    position: relative;
+    top: -500px;
+    left: 850px ;
+
+  }
+  
+/* your-component.component.css */
+.content-container {
+    border-top: 1px solid #0e0d0d;
+    border-bottom: 1px solid #0b0b0b;
+    background-color: lightgoldenrodyellow;
+   /* Longhand syntax */
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 15px;
+padding-left: 25px;
+
+
+}
+.tagLine{
+    position: relative;
+    font-size: 40px;
+    color: orangered;
+    height: 150px;
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+}
+.Hite{
+    height: 150px;
+
+}
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+//   .tagLine {
+//     display: inline-block;
+//     animation: marquee 10s linear infinite;
+//   }
+
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
